@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+<base href="8.html" target="_PARENT">
+<meta charset="utf-8">
+<title>Content UX</title>
+<link rel="stylesheet" href="js/kss.css">
+<link rel="stylesheet" href="js/all.css"/>
+<link rel="stylesheet" href="js/main.css"/>
+</head>
+
+<body>
+
+<div id="main-container">
+	
+	<div class="wcag-desc">
+		<span class="title-h">8. Focus Visible</span>
+		<p><a target="_blank" href="https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html">2.4.7: Focus Visible</a> The purpose of this success criterion is to help a person know which element has the keyboard focus. It must be possible for a person to know which element among multiple elements has the keyboard focus. If there is only one keyboard actionable control on the screen, the success criterion would be met because the visual design presents only one keyboard actionable item.</p>
+		<p class="instructions"><strong>Instruction:</strong> Use the Tab key to navigate to Form elements and links. Determine which elements are not showing focus border.</p>
+		
+		<div class="test-area">
+			<span class="tat">Test Area</span>
+			
+			<fieldset>
+			<legend>What is the best time of day?</legend>
+				<div class="radio row">
+				  <input type="radio" name="day" id="morning" value="morning"/>
+				  <label for="morning">Morning</label>
+				  <input type="radio" name="day" id="night" value="night"/>
+				  <label for="night">Night</label>
+				  <input type="radio" name="day" id="coffee" value="coffee"/>
+				  <label for="coffee">Any time I'm drinking coffee</label>
+				</div>
+			 </fieldset>
+			
+			<br />
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's <a href="#">standard dummy text</a> ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing <a style="outline: none; text-decoration: none;" href="#">Lorem Ipsum</a> passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			<br />
+			
+			<section class="text-inputs-section">
+				<form>
+					<label for="first-name">First Name</label>
+					<input  style="outline: none; " id="first-name" type="text" name="textfield">
+					<label for="last-name" class="required-field">Last Name</label>
+					<input id="last-name" type="text" name="textfield" aria-describedby="required-message" required>
+					<div id="required-message" class="visuallyhidden">This field is required.</div>
+					<label for="address">Enter your street address</label>
+					<textarea style="outline: none; " id="address" name="addresstext"></textarea>
+					<input type="submit" value="Submit">
+				</form>
+			</section>
+		
+		</div>
+		
+		<section class="accordion-section">
+			<div class="accordion" role="presentation">
+				<div class="js-accordion__panel">
+				  <h3 class="accordion__heading">
+				  <button class="accordion__trigger" aria-controls="accordion__content_8" aria-expanded="false" tabindex="0" id="accordion__title_8" aria-selected="false"><strong>Review and learn more</strong>
+				  </button>
+				  </h3>
+					<div class="accordion__content" id="accordion__content_8" role="region" aria-hidden="true" aria-labelledby="accordion__title_8">
+						<div class="review-item">
+							<p><strong>Problem:</strong> Some links and form elements do not show focus border around it.</p>
+							<p><strong>Recommendation:</strong> The usual problem with this is that a CSS style "outline: none" is applied to the elements.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+	</div>
+	
+
+</div>
+
+<iframe height="300px" width="100%" src="menu.html" title="Accessibility Learning"></iframe>
+	
+<script src="js/html5shiv.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.once.min.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/jquery.smartmenus.js"></script>
+<script src="js/kss.js"></script>
+<script src="js/rainbow.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/accordion.js"></script>
+<script src="js/aria-card-flip.js"></script>
+<script src="js/aria-switch.js"></script>
+<script src="js/aria-toggle.js"></script>
+<script src="js/aria-tooltips.js"></script>
+<script src="js/back-to-top.js"></script>
+<script src="js/button-state.js"></script>
+<script src="js/button.js"></script>
+<script src="js/clipboard.min.js"></script>
+<script src="js/copy-button.js"></script>
+<script src="js/jump-link-fix.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/mobile-menu-icon.js"></script>
+<script src="js/mobile-menu.js"></script>
+<script src="js/px-video.js"></script>
+<script src="js/sidebar-slide.js"></script>
+<script src="js/strings.js"></script>
+<script src="js/tables.js"></script>
+<script src="js/tabs.js"></script>
+
+
+
+
+	
+</body>
+</html>

@@ -1,0 +1,71 @@
+	.title-h {
+		font-weight: bold;
+		font-size: 24px;
+		margin-bottom: 12px;
+	}	
+	#main-container {
+		width: 100%;
+		margin: 10px auto;
+		max-width: 1080px;
+		display: block;
+		padding: 15px;
+	}
+	.review-item {
+		border: solid 1px #CCC;
+		padding: 10px 10px 10px 90px;
+		background-color: #FAFAFA;
+		margin-bottom: 0;
+		background: url(../support.png) no-repeat 25px center;
+		background-size: 45px;
+	}
+	.review-item p {
+		font-size: 14px;
+	}
+	.wcag-desc > p {
+		margin-bottom: 20px;
+	}
+	.wcag-desc > div > p > a, a {
+		color: #0043ff;
+		font-weight: bold;
+	}
+	.wcag-desc {
+		margin-bottom: 0;
+		padding: 20px;
+	}
+	img {
+		margin-bottom: 10px;
+	}
+	button.accordion__trigger:hover, button.accordion__trigger:focus {
+		background-color: #234778;
+		border: #FFFFFF;
+	}
+	.test-area {
+		padding: 35px 20px 20px;
+		border: dashed 5px #CCC;
+		margin-bottom: 20px;
+		display: inline-block;
+		width: 100%;
+		height: auto;
+		margin-top: 15px;
+	}
+	.tat {
+		display: block;
+		position: absolute;
+		margin-top: -57px;
+		background: #616161;
+		border: solid 1px #CCC;
+		padding: 5px 20px;
+		margin-right: 0;
+		color: #FFFFFF;
+		font-weight: bold;
+	}
+	.instructions {
+		padding: 10px 10px 10px 90px;
+		border: solid 1px #d8d8d8;
+		background: url(../instruction.png) no-repeat 25px center;
+		background-size: 45px;
+	}
+	iframe {
+		border: none;
+		
+	}
