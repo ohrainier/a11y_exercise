@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 <base href="9.html" target="_PARENT">
 <meta charset="utf-8">
@@ -10,18 +10,18 @@
 </head>
 
 <body>
-
+<main>
 <div id="main-container">
 	
 	<div class="wcag-desc">
 		<span class="title-h">9. Meaningful Sequence</span>
 		<p><a target="_blank" href="https://www.w3.org/WAI/WCAG21/Understanding/meaningful-sequence">1.3.2: Meaningful Sequence</a> The order of content in the sequence cannot be changed without affecting its meaning. For example, if a page contains two independent articles, the relative order of the articles may not affect their meaning, as long as they are not interleaved. In such a situation, the articles themselves may have meaningful sequence, but the container that contains the articles may not have a meaningful sequence.</p>
-		<p class="instructions"><strong>Instruction:</strong> Use the Tab key to navigate to elementsks. Determine if the sequence or order of focus is meaningful.</p>
+		<p class="instructions"><span class="icon-ins"><img alt="Instructions" src="instruction.png" /></span><strong>Instruction:</strong> Use the Tab key to navigate to elementsks. Determine if the sequence or order of focus is meaningful.</p>
 		
 		<div class="test-area">
 			<span class="tat">Test Area</span>
 			
-			<aside style="float: right; border: solid 1px #CCC; padding: 20px;">
+			<div style="float: right; border: solid 1px #CCC; padding: 20px;">
 				<p><strong>Related Content</strong></p>
 				<ul>
 					<li><a href="#">Link One</a></li>
@@ -29,7 +29,7 @@
 					<li><a href="#">Link Three</a></li>
 					<li><a href="#">Link Four</a></li>
 				</ul>
-			</aside>
+			</div>
 			
 			<section style="float: left; width: 80%;">
 				<section class="navbar-section">
@@ -51,10 +51,10 @@
 				  </nav>
 				</section>
 				
-				<main>
+				<div>
 					<p><strong>Main Content</strong></p>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's <a href="#">standard dummy text</a> ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing <a href="#">Lorem Ipsum</a> passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-				</main>
+				</div>
 			
 			</section>
 		
@@ -64,11 +64,11 @@
 			<div class="accordion" role="presentation">
 				<div class="js-accordion__panel">
 				  <h3 class="accordion__heading">
-				  <button class="accordion__trigger" aria-controls="accordion__content_9" aria-expanded="false" tabindex="0" id="accordion__title_9" aria-selected="false"><strong>Review and learn more</strong>
+				  <button class="accordion__trigger" aria-controls="accordion__content_9" aria-expanded="false" tabindex="0" id="accordion__title_9"><strong>Review and learn more</strong>
 				  </button>
 				  </h3>
 					<div class="accordion__content" id="accordion__content_9" role="region" aria-hidden="true" aria-labelledby="accordion__title_9">
-						<div class="review-item">
+						<div class="review-item"><span class="icon-rev"><img alt="Review and learn more" src="support.png" /></span>
 							<p><strong>Problem:</strong> The sequence or order of elements being selected are not meaningful or expected.</p>
 							<p><strong>Recommendation:</strong> The links in the Related Content is first in the order. Focus starts to the main navigation, next is the main content and related content is last.</p>
 						</div>
@@ -81,7 +81,7 @@
 	
 
 </div>
-
+</main>
 <iframe height="300px" width="100%" src="menu.html" title="Accessibility Learning"></iframe>
 	
 <script src="js/html5shiv.min.js"></script>

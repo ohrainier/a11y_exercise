@@ -1,3 +1,8 @@
+.icon-image {
+	
+	
+}
+
 	.title-h {
 		font-weight: bold;
 		font-size: 24px;
@@ -12,11 +17,9 @@
 	}
 	.review-item {
 		border: solid 1px #CCC;
-		padding: 10px 10px 10px 90px;
+		padding: 10px 10px 10px 10px;
 		background-color: #FAFAFA;
 		margin-bottom: 0;
-		background: url(../support.png) no-repeat 25px center;
-		background-size: 45px;
 	}
 	.review-item p {
 		font-size: 14px;
@@ -60,11 +63,35 @@
 		font-weight: bold;
 	}
 	.instructions {
-		padding: 10px 10px 10px 90px;
+		padding: 10px 10px 10px 10px;
 		border: solid 1px #d8d8d8;
-		background: url(../instruction.png) no-repeat 25px center;
-		background-size: 45px;
 	}
+	.icon-ins {
+		float: left;
+		margin: 0px 15px 0 10px;
+	}
+	.icon-ins img {
+		width: 50px;
+		height: auto;
+		vertical-align: text-top;
+		display: inline-block;
+	}
+	.icon-rev {
+		float: left;
+		margin: 0px 15px 0 10px;
+	}
+	.icon-rev img {
+		width: 50px;
+		height: auto;
+		vertical-align: text-top;
+		display: inline-block;
+	}
+
+
+
+
+
+
 	iframe {
 		border: none;
 		

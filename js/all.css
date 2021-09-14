@@ -1678,7 +1678,6 @@ a[target='_blank']::after {
 
 .accordion__trigger {
   background-repeat: no-repeat;
-  background-image: url("../assets/plus_round_red.png");
   background-size: 28px;
   background-position: 97% 50%;
   -webkit-box-shadow: none;
@@ -1701,7 +1700,6 @@ a[target='_blank']::after {
       background-position: 98% 50%; } }
   .accordion__trigger[aria-expanded='true'] {
     content: '';
-    background: url("../assets/minus_round_red.png");
     background-size: 28px;
     background-repeat: no-repeat;
     background-position: 97% 50%;

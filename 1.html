@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 <base href="1.html" target="_PARENT">
 <meta charset="utf-8">
@@ -12,11 +12,11 @@
 <body>
 
 
-<div id="main-container">
+<main id="main-container">
 	<div class="wcag-desc">
 		<span class="title-h">1. Focus Order</span>
 		<p><a target="_blank" href="https://www.w3.org/WAI/WCAG21/Understanding/focus-order.html">2.4.3: Focus Order</a> Ensure that when users navigate sequentially through content, they encounter information in an order that is consistent with the meaning of the content and can be operated from the keyboard.</p>
-		<p class="instructions"><strong>Instruction:</strong> Use the Tab key to navigate to Menu and links in the paragraph. Determine which elements are not receiving keyboard focus or not being accessible.</p>
+		<p class="instructions"><span class="icon-ins"><img alt="Instructions" src="instruction.png" /></span><strong>Instruction:</strong> Use the Tab key to navigate to Menu and links in the paragraph. Determine which elements are not receiving keyboard focus or not being accessible.</p>
 		
 		<div class="test-area">
 			<span class="tat">Test Area</span>
@@ -48,11 +48,12 @@
 			<div class="accordion" role="presentation">
 				<div class="js-accordion__panel">
 				  <h3 class="accordion__heading">
-				  <button class="accordion__trigger" aria-controls="accordion__content_1" aria-expanded="false" tabindex="0" id="accordion__title_1" aria-selected="false"><strong>Review and learn more</strong>
+				  <button class="accordion__trigger" aria-controls="accordion__content_1" aria-expanded="false" tabindex="0" id="accordion__title_1"><strong>Review and learn more</strong>
 				  </button>
 				  </h3>
 				  <div class="accordion__content" id="accordion__content_1" role="region" aria-hidden="true" aria-labelledby="accordion__title_1">
 					<div class="review-item">
+						<span class="icon-rev"><img alt="Review and learn more" src="support.png" /></span>
 						<p><strong>Problem:</strong> "About Us" menu item and "standard dummy text" link are not accessible or being skipped by the keyboard tabbing.</p>
 						<p><strong>Recommendation:</strong> Ensure that all interactive elements such as links, buttons and form elements can receive focus when keyboard tabbing is used.</p>
 					</div>
@@ -62,7 +63,7 @@
 		</section>
 	</div>
 
-</div>
+</main>
 
 <iframe height="300px" width="100%" src="menu.html" title="Accessibility Learning"></iframe>
 	
